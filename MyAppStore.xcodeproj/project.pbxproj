@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1340B12163468C00BF23DB /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1340B02163468C00BF23DB /* DetailsViewController.swift */; };
+		2F1340B32163852700BF23DB /* ScreenshotsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1340B22163852700BF23DB /* ScreenshotsCell.swift */; };
+		2F7B631A215D105C00ADC2DD /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7B6319215D105C00ADC2DD /* Models.swift */; };
+		2FD3E3DC215AC550000E26E0 /* AppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD3E3DB215AC550000E26E0 /* AppCell.swift */; };
 		2FDDD117215A722400CF5DAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDDD116215A722400CF5DAC /* AppDelegate.swift */; };
-		2FDDD119215A722400CF5DAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDDD118215A722400CF5DAC /* ViewController.swift */; };
-		2FDDD11C215A722400CF5DAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDDD11A215A722400CF5DAC /* Main.storyboard */; };
+		2FDDD119215A722400CF5DAC /* FeaturedAppsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDDD118215A722400CF5DAC /* FeaturedAppsController.swift */; };
 		2FDDD11E215A722400CF5DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FDDD11D215A722400CF5DAC /* Assets.xcassets */; };
 		2FDDD121215A722400CF5DAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FDDD11F215A722400CF5DAC /* LaunchScreen.storyboard */; };
+		2FDDD12A215A788900CF5DAC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDDD129215A788900CF5DAC /* CategoryCell.swift */; };
+		2FDDD12C215A794E00CF5DAC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FDDD12B215A794E00CF5DAC /* Extensions.swift */; };
+		5014DB833D1056D0EBFCC4CA /* Pods_MyAppStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 898B4A903245DF81F80767DD /* Pods_MyAppStore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F1340B02163468C00BF23DB /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		2F1340B22163852700BF23DB /* ScreenshotsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotsCell.swift; sourceTree = "<group>"; };
+		2F7B6319215D105C00ADC2DD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2FD3E3DB215AC550000E26E0 /* AppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCell.swift; sourceTree = "<group>"; };
 		2FDDD113215A722400CF5DAC /* MyAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FDDD116215A722400CF5DAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FDDD118215A722400CF5DAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2FDDD11B215A722400CF5DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FDDD118215A722400CF5DAC /* FeaturedAppsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedAppsController.swift; sourceTree = "<group>"; };
 		2FDDD11D215A722400CF5DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FDDD120215A722400CF5DAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FDDD122215A722400CF5DAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FDDD129215A788900CF5DAC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		2FDDD12B215A794E00CF5DAC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		70912EF4815B90EE1146F0CB /* Pods-MyAppStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppStore/Pods-MyAppStore.debug.xcconfig"; sourceTree = "<group>"; };
+		898B4A903245DF81F80767DD /* Pods_MyAppStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyAppStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0CD74E6A4886E9B93E1E51C /* Pods-MyAppStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppStore/Pods-MyAppStore.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5014DB833D1056D0EBFCC4CA /* Pods_MyAppStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06F8F9D379D2CC633E5E1B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				898B4A903245DF81F80767DD /* Pods_MyAppStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F1340AF2163467800BF23DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FDDD118215A722400CF5DAC /* FeaturedAppsController.swift */,
+				2F1340B02163468C00BF23DB /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F4377CB215E1367002788A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2F7B6318215D105200ADC2DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F7B6319215D105C00ADC2DD /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2FDDD10A215A722300CF5DAC = {
 			isa = PBXGroup;
 			children = (
+				2F1340AF2163467800BF23DB /* Controllers */,
+				2F4377CB215E1367002788A8 /* Services */,
+				2F7B6318215D105200ADC2DD /* Models */,
 				2FDDD115215A722400CF5DAC /* MyAppStore */,
 				2FDDD114215A722400CF5DAC /* Products */,
+				B7044324394E64EC447346FF /* Pods */,
+				06F8F9D379D2CC633E5E1B8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,33 @@
 		2FDDD115215A722400CF5DAC /* MyAppStore */ = {
 			isa = PBXGroup;
 			children = (
+				2FDDD128215A787A00CF5DAC /* Cells */,
 				2FDDD116215A722400CF5DAC /* AppDelegate.swift */,
-				2FDDD118215A722400CF5DAC /* ViewController.swift */,
-				2FDDD11A215A722400CF5DAC /* Main.storyboard */,
 				2FDDD11D215A722400CF5DAC /* Assets.xcassets */,
 				2FDDD11F215A722400CF5DAC /* LaunchScreen.storyboard */,
 				2FDDD122215A722400CF5DAC /* Info.plist */,
+				2FDDD12B215A794E00CF5DAC /* Extensions.swift */,
 			);
 			path = MyAppStore;
+			sourceTree = "<group>";
+		};
+		2FDDD128215A787A00CF5DAC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2FDDD129215A788900CF5DAC /* CategoryCell.swift */,
+				2FD3E3DB215AC550000E26E0 /* AppCell.swift */,
+				2F1340B22163852700BF23DB /* ScreenshotsCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B7044324394E64EC447346FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70912EF4815B90EE1146F0CB /* Pods-MyAppStore.debug.xcconfig */,
+				C0CD74E6A4886E9B93E1E51C /* Pods-MyAppStore.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FDDD125215A722400CF5DAC /* Build configuration list for PBXNativeTarget "MyAppStore" */;
 			buildPhases = (
+				5B616F6033677643548597E9 /* [CP] Check Pods Manifest.lock */,
 				2FDDD10F215A722400CF5DAC /* Sources */,
 				2FDDD110215A722400CF5DAC /* Frameworks */,
 				2FDDD111215A722400CF5DAC /* Resources */,
+				3900F77387FB49B5FF076481 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +197,69 @@
 			files = (
 				2FDDD121215A722400CF5DAC /* LaunchScreen.storyboard in Resources */,
 				2FDDD11E215A722400CF5DAC /* Assets.xcassets in Resources */,
-				2FDDD11C215A722400CF5DAC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3900F77387FB49B5FF076481 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyAppStore/Pods-MyAppStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyAppStore/Pods-MyAppStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B616F6033677643548597E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAppStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2FDDD10F215A722400CF5DAC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FDDD119215A722400CF5DAC /* ViewController.swift in Sources */,
+				2FD3E3DC215AC550000E26E0 /* AppCell.swift in Sources */,
+				2F1340B32163852700BF23DB /* ScreenshotsCell.swift in Sources */,
+				2FDDD119215A722400CF5DAC /* FeaturedAppsController.swift in Sources */,
 				2FDDD117215A722400CF5DAC /* AppDelegate.swift in Sources */,
+				2F7B631A215D105C00ADC2DD /* Models.swift in Sources */,
+				2F1340B12163468C00BF23DB /* DetailsViewController.swift in Sources */,
+				2FDDD12A215A788900CF5DAC /* CategoryCell.swift in Sources */,
+				2FDDD12C215A794E00CF5DAC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2FDDD11A215A722400CF5DAC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2FDDD11B215A722400CF5DAC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2FDDD11F215A722400CF5DAC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,16 +389,17 @@
 		};
 		2FDDD126215A722400CF5DAC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70912EF4815B90EE1146F0CB /* Pods-MyAppStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WVB94P2VKT;
+				DEVELOPMENT_TEAM = 6NRP74S2U2;
 				INFOPLIST_FILE = MyAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arminspahic.Todoey.MyAppStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arminspahic.Todoey.MyAppStorey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +408,17 @@
 		};
 		2FDDD127215A722400CF5DAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0CD74E6A4886E9B93E1E51C /* Pods-MyAppStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WVB94P2VKT;
+				DEVELOPMENT_TEAM = 6NRP74S2U2;
 				INFOPLIST_FILE = MyAppStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arminspahic.Todoey.MyAppStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arminspahic.Todoey.MyAppStorey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

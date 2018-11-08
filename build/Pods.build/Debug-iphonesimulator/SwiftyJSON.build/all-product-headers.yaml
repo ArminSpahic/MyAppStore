@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/Pods_MyAppStore.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-MyAppStore-umbrella.h",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/Pods/Target Support Files/Pods-MyAppStore/Pods-MyAppStore-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_MyAppStore-Swift.h",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/Pods_MyAppStore.framework/Headers/Pods_MyAppStore-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/Pods_MyAppStore.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/build/Pods.build/Debug-iphonesimulator/Pods-MyAppStore.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-Swift.h",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftyJSON-umbrella.h",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/aki/Desktop/Xcode/MyAppStore/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/aki/Desktop/Xcode/MyAppStore/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,9 @@ class FeaturedAppsController: UICollectionViewController, UICollectionViewDelega
     }
     
     func showAppDetailForApp(app: App) {
-        let detailAppController = UIViewController()
+        let layout = UICollectionViewFlowLayout()
+        let detailAppController = DetailsViewController(collectionViewLayout: layout)
+        detailAppController.screenApp = app
         navigationController?.pushViewController(detailAppController, animated: true)
     }
     
@@ -90,7 +92,7 @@ class Header: CategoryCell {
         
         super.setupViews()
         appsCollectionView.register(BannerCell.self, forCellWithReuseIdentifier: bannerCellId)
-        nameLabel.isHidden = true
+        
         
         addSubview(appsCollectionView)
         addConstraintsWithFormat(format: "H:|[v0]|", views: appsCollectionView)
@@ -114,8 +116,11 @@ class Header: CategoryCell {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let app = appCategory?.apps?[indexPath.item] {
-            featuredAppsController?.showAppDetailForApp(app: app)
+        if let selectedApp = appCategory?.apps?[indexPath.item] {
+            featuredAppsController?.showAppDetailForApp(app: selectedApp)
+            let layout = UICollectionViewFlowLayout()
+            let detailsController = DetailsViewController(collectionViewLayout: layout)
+            detailsController.screenApp = selectedApp
         }
     }
     

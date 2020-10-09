@@ -36,7 +36,7 @@ class DetailedAppPresent: NSObject {
                         appInfoArray.append(appInfo)
                     }
                     self.imagesArray.appInformation = appInfoArray
-                    
+                    //test
                 }
                 
                 DispatchQueue.main.async(execute: { () -> Void in
